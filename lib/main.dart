@@ -23,6 +23,44 @@ class MyApp extends StatelessWidget {
                     image: DecorationImage(
                         fit: BoxFit.cover,
                         image: AssetImage('images/fotoBayu.jpeg'))),
+              ),
+              Text('Bayu Indra Kusuma',
+                  style: TextStyle(
+                      fontFamily: 'Pacifico',
+                      fontSize: 25.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold)),
+              Text(
+                'FLUTTER DEVELOPER',
+                style: TextStyle(fontSize: 15.0, color: Colors.white),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(horizontal: 25.0, vertical: 15.0),
+                color: Colors.white,
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    '+62 123 456 789 12',
+                    style: TextStyle(color: Colors.teal, fontSize: 15.0),
+                  ),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(horizontal: 25.0, vertical: 15.0),
+                color: Colors.white,
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    'bayuik@gmail.com',
+                    style: TextStyle(color: Colors.teal, fontSize: 15.0),
+                  ),
+                ),
               )
             ],
           ),
