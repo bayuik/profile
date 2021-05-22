@@ -34,9 +34,16 @@ class MyApp extends StatelessWidget {
                 'FLUTTER DEVELOPER',
                 style: TextStyle(fontSize: 15.0, color: Colors.white),
               ),
+              SizedBox(
+                height: 20.0,
+                width: 200.0,
+                child: Divider(
+                  color: Colors.teal.shade100,
+                  
+                ),
+              ),
               Card(
                 margin: EdgeInsets.symmetric(horizontal: 25.0, vertical: 15.0),
-                color: Colors.white,
                 child: ListTile(
                   leading: Icon(
                     Icons.phone,
@@ -50,7 +57,6 @@ class MyApp extends StatelessWidget {
               ),
               Card(
                 margin: EdgeInsets.symmetric(horizontal: 25.0, vertical: 15.0),
-                color: Colors.white,
                 child: ListTile(
                   leading: Icon(
                     Icons.email,
